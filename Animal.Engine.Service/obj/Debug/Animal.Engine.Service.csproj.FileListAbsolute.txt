@@ -1,0 +1,13 @@
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\Animal.Engine.Service.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\Animal.Engine.Service.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\Animal.Proxy.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\Animal.ServiceContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\AnimalDataContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\Animal.Proxy.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\Animal.ServiceContracts.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\bin\Debug\AnimalDataContracts.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\obj\Debug\Animal.Engine.Service.csprojAssemblyReference.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\obj\Debug\Animal.Engine.Service.csproj.CoreCompileInputs.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\obj\Debug\Animal.Engine.Service.csproj.CopyComplete
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\obj\Debug\Animal.Engine.Service.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.Engine.Service\obj\Debug\Animal.Engine.Service.pdb

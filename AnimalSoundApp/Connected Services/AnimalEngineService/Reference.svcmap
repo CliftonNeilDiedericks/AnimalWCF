@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b53dde06-dad6-4317-b8aa-5a555fcf63d7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/AnimalWCF/AnimalEngineService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AnimalEngineService.wsdl" MetadataType="Wsdl" ID="b468dfb1-ebc3-45e5-aa75-12d3b3ceb563" SourceId="1" SourceUrl="http://localhost/AnimalWCF/AnimalEngineService.svc?wsdl" />
+    <MetadataFile FileName="AnimalEngineService.xsd" MetadataType="Schema" ID="7ecc99e7-c975-45c2-b0d9-d750f2272726" SourceId="1" SourceUrl="http://localhost/AnimalWCF/AnimalEngineService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AnimalEngineService1.xsd" MetadataType="Schema" ID="be07da12-4132-48cb-80a2-4614e2bb04db" SourceId="1" SourceUrl="http://localhost/AnimalWCF/AnimalEngineService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AnimalEngineService2.xsd" MetadataType="Schema" ID="df11f748-c3c6-4617-bca2-441cd3c18578" SourceId="1" SourceUrl="http://localhost/AnimalWCF/AnimalEngineService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AnimalEngineService.disco" MetadataType="Disco" ID="22c2228d-8a77-4a8f-95f0-b7b4763443fe" SourceId="1" SourceUrl="http://localhost/AnimalWCF/AnimalEngineService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

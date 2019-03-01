@@ -1,0 +1,14 @@
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\Animal.ResourceAccess.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\Animal.ResourceAccess.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\AnimalDataContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\Dapper.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\AnimalDataContracts.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\obj\Release\Animal.ResourceAccess.csprojAssemblyReference.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\obj\Release\Animal.ResourceAccess.csproj.CoreCompileInputs.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\obj\Release\Animal.ResourceAccess.csproj.CopyComplete
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\obj\Release\Animal.ResourceAccess.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ResourceAccess\obj\Release\Animal.ResourceAccess.pdb

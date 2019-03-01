@@ -1,0 +1,9 @@
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\bin\Release\Animal.ServiceContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\bin\Release\Animal.ServiceContracts.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\bin\Release\AnimalDataContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\bin\Release\AnimalDataContracts.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\obj\Release\Animal.ServiceContracts.csprojAssemblyReference.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\obj\Release\Animal.ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\obj\Release\Animal.ServiceContracts.csproj.CopyComplete
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\obj\Release\Animal.ServiceContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\Animal.ServiceContracts\obj\Release\Animal.ServiceContracts.pdb

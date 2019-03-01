@@ -1,0 +1,7 @@
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalSoundApp\bin\Debug\AnimalSoundApp.exe.config
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalSoundApp\bin\Debug\AnimalSoundApp.exe
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalSoundApp\bin\Debug\AnimalSoundApp.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalSoundApp\obj\Debug\AnimalSoundApp.csprojAssemblyReference.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalSoundApp\obj\Debug\AnimalSoundApp.csproj.CoreCompileInputs.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalSoundApp\obj\Debug\AnimalSoundApp.exe
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalSoundApp\obj\Debug\AnimalSoundApp.pdb

@@ -1,0 +1,6 @@
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalDataContracts\bin\Debug\AnimalDataContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalDataContracts\bin\Debug\AnimalDataContracts.pdb
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalDataContracts\obj\Debug\AnimalDataContracts.csprojAssemblyReference.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalDataContracts\obj\Debug\AnimalDataContracts.csproj.CoreCompileInputs.cache
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalDataContracts\obj\Debug\AnimalDataContracts.dll
+C:\Users\dieden\Documents\Visual Studio 2017\Projects\AnimalWCF\AnimalDataContracts\obj\Debug\AnimalDataContracts.pdb

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\AnimalWCF</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AnimalEngineService.svc">
+      <publishTime>02/27/2019 14:23:06</publishTime>
+    </File>
+    <File Include="AnimalResourceService.svc">
+      <publishTime>02/27/2019 14:25:39</publishTime>
+    </File>
+    <File Include="bin/Animal.Engine.Service.dll">
+      <publishTime>02/28/2019 15:24:01</publishTime>
+    </File>
+    <File Include="bin/Animal.Engine.Service.pdb">
+      <publishTime>02/28/2019 15:24:01</publishTime>
+    </File>
+    <File Include="bin/Animal.Proxy.dll">
+      <publishTime>02/28/2019 15:24:01</publishTime>
+    </File>
+    <File Include="bin/Animal.Proxy.pdb">
+      <publishTime>02/28/2019 15:24:01</publishTime>
+    </File>
+    <File Include="bin/Animal.ResourceAccess.dll">
+      <publishTime>03/01/2019 00:04:07</publishTime>
+    </File>
+    <File Include="bin/Animal.ResourceAccess.pdb">
+      <publishTime>03/01/2019 00:04:07</publishTime>
+    </File>
+    <File Include="bin/Animal.ResourceAccess.Service.dll">
+      <publishTime>03/01/2019 00:04:07</publishTime>
+    </File>
+    <File Include="bin/Animal.ResourceAccess.Service.pdb">
+      <publishTime>03/01/2019 00:04:07</publishTime>
+    </File>
+    <File Include="bin/Animal.ServiceContracts.dll">
+      <publishTime>02/28/2019 15:24:01</publishTime>
+    </File>
+    <File Include="bin/Animal.ServiceContracts.pdb">
+      <publishTime>02/28/2019 15:24:01</publishTime>
+    </File>
+    <File Include="bin/AnimalDataContracts.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/AnimalDataContracts.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/AnimalWCF.dll">
+      <publishTime>03/01/2019 00:04:08</publishTime>
+    </File>
+    <File Include="bin/AnimalWCF.pdb">
+      <publishTime>03/01/2019 00:04:08</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>02/22/2019 13:36:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>01/02/2018 14:14:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>01/02/2018 14:14:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/01/2019 00:04:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AnimalDataContracts.Animal" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AnimalDataContracts.Animal" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfAnimal">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Animal" nillable="true" type="tns:Animal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnimal" nillable="true" type="tns:ArrayOfAnimal" />
+  <xs:complexType name="Animal">
+    <xs:sequence>
+      <xs:element name="AnimalTypeID" type="xs:int" />
+      <xs:element name="ID" type="xs:int" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Animal" nillable="true" type="tns:Animal" />
+  <xs:complexType name="ArrayOfAnimalType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AnimalType" nillable="true" type="tns:AnimalType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnimalType" nillable="true" type="tns:ArrayOfAnimalType" />
+  <xs:complexType name="AnimalType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClassName" nillable="true" type="xs:string" />
+      <xs:element name="ID" type="xs:int" />
+      <xs:element name="TypeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnimalType" nillable="true" type="tns:AnimalType" />
+</xs:schema>

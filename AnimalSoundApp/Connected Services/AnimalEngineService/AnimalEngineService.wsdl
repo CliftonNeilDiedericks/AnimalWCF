@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AnimalEngineService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/AnimalWCF/AnimalEngineService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/AnimalWCF/AnimalEngineService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/AnimalWCF/AnimalEngineService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AnimalDataContracts.Animal" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAnimalEngineService_GetAllAnimals_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnimals" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_GetAllAnimals_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnimalsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_GetAnimalByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnimalByID" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_GetAnimalByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnimalByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_InsertAnimal_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAnimal" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_InsertAnimal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAnimalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_UpdateAnimal_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnimal" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_UpdateAnimal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnimalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_DeleteAnimal_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnimal" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_DeleteAnimal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnimalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_GetAllAnimalTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnimalTypes" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_GetAllAnimalTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnimalTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_GetAnimalTypeByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnimalTypeByID" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_GetAnimalTypeByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnimalTypeByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_InsertAnimalType_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAnimalType" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_InsertAnimalType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAnimalTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_UpdateAnimalType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnimalType" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_UpdateAnimalType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnimalTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_DeleteAnimalType_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnimalType" />
+  </wsdl:message>
+  <wsdl:message name="IAnimalEngineService_DeleteAnimalType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnimalTypeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAnimalEngineService">
+    <wsdl:operation name="GetAllAnimals">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAllAnimals" message="tns:IAnimalEngineService_GetAllAnimals_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAllAnimalsResponse" message="tns:IAnimalEngineService_GetAllAnimals_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnimalByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAnimalByID" message="tns:IAnimalEngineService_GetAnimalByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAnimalByIDResponse" message="tns:IAnimalEngineService_GetAnimalByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertAnimal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/InsertAnimal" message="tns:IAnimalEngineService_InsertAnimal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/InsertAnimalResponse" message="tns:IAnimalEngineService_InsertAnimal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnimal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/UpdateAnimal" message="tns:IAnimalEngineService_UpdateAnimal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/UpdateAnimalResponse" message="tns:IAnimalEngineService_UpdateAnimal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnimal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/DeleteAnimal" message="tns:IAnimalEngineService_DeleteAnimal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/DeleteAnimalResponse" message="tns:IAnimalEngineService_DeleteAnimal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAnimalTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAllAnimalTypes" message="tns:IAnimalEngineService_GetAllAnimalTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAllAnimalTypesResponse" message="tns:IAnimalEngineService_GetAllAnimalTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnimalTypeByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAnimalTypeByID" message="tns:IAnimalEngineService_GetAnimalTypeByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/GetAnimalTypeByIDResponse" message="tns:IAnimalEngineService_GetAnimalTypeByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertAnimalType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/InsertAnimalType" message="tns:IAnimalEngineService_InsertAnimalType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/InsertAnimalTypeResponse" message="tns:IAnimalEngineService_InsertAnimalType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnimalType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/UpdateAnimalType" message="tns:IAnimalEngineService_UpdateAnimalType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/UpdateAnimalTypeResponse" message="tns:IAnimalEngineService_UpdateAnimalType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnimalType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnimalEngineService/DeleteAnimalType" message="tns:IAnimalEngineService_DeleteAnimalType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnimalEngineService/DeleteAnimalTypeResponse" message="tns:IAnimalEngineService_DeleteAnimalType_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAnimalEngineService" type="tns:IAnimalEngineService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllAnimals">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/GetAllAnimals" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnimalByID">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/GetAnimalByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAnimal">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/InsertAnimal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnimal">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/UpdateAnimal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnimal">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/DeleteAnimal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAnimalTypes">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/GetAllAnimalTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnimalTypeByID">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/GetAnimalTypeByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAnimalType">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/InsertAnimalType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnimalType">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/UpdateAnimalType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnimalType">
+      <soap:operation soapAction="http://tempuri.org/IAnimalEngineService/DeleteAnimalType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AnimalEngineService">
+    <wsdl:port name="BasicHttpBinding_IAnimalEngineService" binding="tns:BasicHttpBinding_IAnimalEngineService">
+      <soap:address location="http://localhost/AnimalWCF/AnimalEngineService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
